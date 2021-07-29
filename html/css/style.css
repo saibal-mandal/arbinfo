@@ -1589,6 +1589,12 @@ section.firstsection .item:nth-child(1), section.secondsection .item:nth-child(2
     flex-direction: column;
     text-align: center;
 }
+.firstboxbody, .secndboxbody {
+    padding: 20px 25px;
+}
+.firstboxbody h5, .secndboxbody h5 {
+    margin-bottom: 5px;
+}
  }
  @media (max-width: 414px) {
 .topInfo ul li {
