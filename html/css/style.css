@@ -913,6 +913,7 @@ footer .singlefooter h2:after {
 	-webkit-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 	width: 0;
+	overflow: hidden;
 }
 .portfolio-item:hover .overlay {
 	border-bottom: 800px solid var(--main-color);
