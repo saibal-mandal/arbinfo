@@ -422,7 +422,7 @@ header {
 	left: 0;
 	background: rgba(189,189,189,0.65);
 }
-.services .heading h2, .teammember .heading h2 {
+.services .heading h2 {
 	font-size: 32px;
 	color: var(--main-color);
 	text-transform: uppercase;
@@ -1594,6 +1594,15 @@ section.firstsection .item:nth-child(1), section.secondsection .item:nth-child(2
 }
 .firstboxbody h5, .secndboxbody h5 {
     margin-bottom: 5px;
+}
+.services .heading h2, .testimonials  .heading h2, .process-section .heading h2 {
+    font-size: 24px;
+}
+.process-section .process-box:after {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
 }
  }
  @media (max-width: 414px) {
